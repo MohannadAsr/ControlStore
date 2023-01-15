@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ControlStore/static/css/main.32bdffcf.css",
+    "main.js": "/ControlStore/static/js/main.754f495d.js",
+    "static/media/s5.jpg": "/ControlStore/static/media/s5.a5b5a8d3e7538144cda1.jpg",
+    "static/media/s2.jpg": "/ControlStore/static/media/s2.8b4d400c31e11b801a77.jpg",
+    "static/media/s100.JPG": "/ControlStore/static/media/s100.22776b1f610f5832582f.JPG",
+    "static/media/s300.JPG": "/ControlStore/static/media/s300.64e38f2ab44fed50bac4.JPG",
+    "index.html": "/ControlStore/index.html",
+    "main.32bdffcf.css.map": "/ControlStore/static/css/main.32bdffcf.css.map",
+    "main.754f495d.js.map": "/ControlStore/static/js/main.754f495d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32bdffcf.css",
+    "static/js/main.754f495d.js"
+  ]
+}
