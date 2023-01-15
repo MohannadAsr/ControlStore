@@ -51,7 +51,7 @@ function App() {
   React.useEffect(()=>{
    
     setTimeout(() => {
-      axios.get("https://syriazone-001-site1.ftempurl.com/syriazone/api/Syriazone/GetAllProducts.aspx").then(res => console.log(setAllProducts(res.data) ))
+      axios.get("http://syriazone-001-site1.ftempurl.com/syriazone/api/Syriazone/GetAllProducts.aspx").then(res => console.log(setAllProducts(res.data) ))
     }, 4000);
     
 
@@ -68,7 +68,8 @@ function App() {
 
       <SideBar />
      <Routes>
-      <Route path={["/","/ControlStore","/ControlStore/","ControlStore"]} element={ <Main allProducts={allProducts} />} />
+      <Route path="/ControlStore" element={ <Main allProducts={allProducts} />} />
+      <Route path="/" element={ <Main allProducts={allProducts} />} />
       <Route path="product/:productID" element={ <ProductInfo allProducts={allProducts} />} />
      </Routes>
    

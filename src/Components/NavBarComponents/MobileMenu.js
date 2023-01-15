@@ -1,4 +1,4 @@
-import { Box, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Paper, SwipeableDrawer, Switch, Typography } from '@mui/material'
+import { Box, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Switch, Typography } from '@mui/material'
 import React from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
@@ -30,7 +30,7 @@ export default function MobileMenu({themeMode , setThemeMode}) {
                 <MenuIcon sx={{color:"white"}} />
     </IconButton>
 
-          <SwipeableDrawer
+          <Drawer
             anchor="right"
             open={state}
             onClose={toggleDrawer()}
@@ -104,7 +104,7 @@ export default function MobileMenu({themeMode , setThemeMode}) {
       </ListItem>
           
         </List>
-          </SwipeableDrawer>
+          </Drawer>
 
       </Box>
   )
