@@ -1,0 +1,66 @@
+:root {
+    --mui-palette-primary-main: #4050a5;
+}
+
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.s-title {
+    position: relative;
+    width: fit-content;
+}
+
+.s-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 5px;
+    right: -10%;
+    bottom: 0;
+    background-color: #4050a5;
+}
+
+
+.product-img-container {
+    width: 80%;
+    height: 200px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+
+
+
+}
+
+.product-container {
+    transition: .4s linear;
+}
+
+.product-container:hover {
+
+    transform: scale(1.04);
+
+
+}
+
+.item-img {
+    cursor: pointer;
+}
+
+.item-img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.item-img.active {
+    transform: scale(1.3);
+
+
+
+}
